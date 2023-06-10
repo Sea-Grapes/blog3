@@ -2,36 +2,53 @@
 <script>
 </script>
 
-<article>
-  <header>
-    <h1>Re:
-      <span class='rotate'>imagine</span>
-      <span class='rotate'>design</span>
-      <span class='rotate'>discover</span>
-    </h1>
-    <h1>WebDev</h1>
-  </header>
+<header>
+  <cs>Portfolio();</cs>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+<main>
   <section>
+    <div class="container">
+      Hello this is a test
+    </div>
   </section>
-</article>
+</main>
+
+
 
 <style>
 
-  @keyframes rotate {
-    0% {transform: rotateY(0deg)}
-    50% {transform: rotateY(-90deg)}
+  cs {
+    font-family: Consolas;
   }
 
-  .rotate {
-    display: inline-block;
-    animation: 4s rotate;
+  .container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  section {
+    padding: 3.5rem 0;
   }
 
   header {
-    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
   }
 
-  article {
-    max-width: 75vw;
+  nav {
+    text-align: left;
+    /* display: grid; */
+  }
+
+  nav a {
+    margin-right: 1rem;
   }
 </style>
