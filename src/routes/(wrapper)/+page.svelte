@@ -3,9 +3,11 @@
 </script>
 
 <header>
-  <cs>Portfolio();</cs>
   <input type="checkbox" id="nav-toggle">
-  <label for="nav-toggle"></label>
+  <cs>
+  <label for="nav-toggle"><span class="material-symbols-rounded">menu</span></label>
+    Portfolio();
+  </cs>
   <nav>
     <a href="#">Home</a>
     <a href="#">Blog</a>
@@ -36,6 +38,7 @@ cs {
 header cs {
   display: block;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .container {
@@ -66,14 +69,19 @@ nav a {
 }
 
 
+#nav-toggle {
+  display: none;
+}
+
+
 #nav-toggle:checked ~ nav {
   transform: scale(1, 1);
 }
 
-#nav-toggle + label {
-  background-image: url('logo.svg');
+label[for='nav-toggle'] {
+  display: flex;
+  position: absolute;
 }
-
 
 @media screen and (min-width: 800px) {
   cs {
@@ -94,7 +102,7 @@ nav a {
     display: inline;
   }
 
-  #nav-toggle {
+  label[for='nav-toggle'] {
     display: none;
   }
 }
