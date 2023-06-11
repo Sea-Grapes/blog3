@@ -37,7 +37,6 @@ cs {
 
 header cs {
   display: grid;
-  margin-bottom: 0.5rem;
   place-items: center;
 }
 
@@ -52,7 +51,7 @@ section {
 }
 
 header {
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 nav {
@@ -93,6 +92,8 @@ label[for='nav-toggle'] {
   header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 4rem;
   }
 
   nav {
