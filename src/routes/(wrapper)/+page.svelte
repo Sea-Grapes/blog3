@@ -36,9 +36,9 @@ cs {
 }
 
 header cs {
-  display: block;
-  text-align: center;
+  display: grid;
   margin-bottom: 0.5rem;
+  place-items: center;
 }
 
 .container {
@@ -81,6 +81,8 @@ nav a {
 label[for='nav-toggle'] {
   display: flex;
   position: absolute;
+  left: 2rem;
+  font-size: 2em;
 }
 
 @media screen and (min-width: 800px) {
