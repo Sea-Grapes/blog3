@@ -2,7 +2,7 @@
 <script>
 </script>
 
-<header>
+<header class="ns">
   <input type="checkbox" id="nav-toggle">
   <cs>
   <label for="nav-toggle"><span class="material-symbols-rounded">menu</span></label>
