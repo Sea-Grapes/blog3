@@ -1,5 +1,7 @@
 
 <script>
+    import Nav from "../../lib/components/Nav.svelte";
+
 </script>
 
 <header class="ns">
@@ -9,10 +11,17 @@
     Portfolio();
   </cs>
   <nav>
-    <a href="#">Home</a>
+    <Nav url='/' label='Home'/>
+    <Nav url='/' label='Blog'/>
+    <Nav url='/' label='Projects'/>
+    <Nav url='/' label='About'/>
+
+    
+    
+    <!-- <a href="#">Home</a>
     <a href="#">Blog</a>
     <a href="#">Projects</a>
-    <a href="#">About</a>
+    <a href="#">About</a> -->
   </nav>
 </header>
 <main>
@@ -38,6 +47,7 @@ cs {
 header cs {
   display: grid;
   place-items: center;
+  height: 4rem;
 }
 
 .container {
@@ -56,14 +66,12 @@ header {
 
 nav {
   text-align: left;
-  /* display: grid; */
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
 }
 
 nav a {
-  margin-right: 1rem;
   display: block;
 }
 
@@ -99,10 +107,16 @@ label[for='nav-toggle'] {
   nav {
     transition: none;
     transform: scale(1, 1);
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
 
   nav a {
-    display: inline;
+    display: flex;
+    padding: 0 1rem;
+    height: 100%;
+    align-items: center;
   }
 
   label[for='nav-toggle'] {
