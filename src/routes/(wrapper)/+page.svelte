@@ -1,9 +1,3 @@
-<script>
-import Header from "./header/Header.svelte";
-</script>
-
-<Header/>
-
 <main>
   <section>
     <div class="container">
