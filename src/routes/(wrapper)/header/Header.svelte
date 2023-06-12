@@ -11,9 +11,9 @@
   </cs>
   <nav>
     <Nav url='/' label='Home'/>
-    <Nav url='/' label='Blog'/>
-    <Nav url='/' label='Projects'/>
-    <Nav url='/' label='About'/>
+    <Nav url='/blog' label='Blog'/>
+    <Nav url='/projects' label='Projects'/>
+    <Nav url='/about' label='About'/>
 
     
     

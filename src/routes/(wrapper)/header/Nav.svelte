@@ -8,7 +8,7 @@
   $: path = $page.url.pathname;
 </script>
 
-<a class:active={path = url} href={url}>{label}</a>
+<a class:active={path === url} href={url}>{label}</a>
 
 <style>
 
