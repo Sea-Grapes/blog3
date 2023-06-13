@@ -16,8 +16,15 @@ a {
   display: block;
 }
 
+a:hover {
+  background-color: var(--slate-50);
+}
+
 .active {
-  background-color: grey;
+  color: var(--blue-500);
+  /* font-weight: 600; */
+  border-bottom: 3px solid var(--blue-500);
+  background-color: var(--blue-50) !important;
 }
 
 @media screen and (min-width: 800px) {
