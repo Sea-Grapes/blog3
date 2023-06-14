@@ -1,16 +1,25 @@
 <main>
   <section>
-    <div class="container">
+    <div class="container dark">
       Blog page wow
     </div>
   </section>
 </main>
 
 <style>
+
+:global(body) {
+  background-color: var(--zinc-800);
+}
+
 .container {
   max-width: 50rem;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.dark {
+  
 }
 
 section {
