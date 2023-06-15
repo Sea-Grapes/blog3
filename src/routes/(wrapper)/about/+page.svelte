@@ -9,7 +9,7 @@
 <style>
 
 :global(body) {
-  background-color: var(--zinc-800);
+  
 }
 
 .container {
