@@ -1,7 +1,8 @@
 <main>
   <section>
     <div class="container dark">
-      Blog page wow
+      <h1>About</h1>
+      Hi, I'm ____, a passionate tech enthusiast 
     </div>
   </section>
 </main>
@@ -9,7 +10,7 @@
 <style>
 
 :global(body) {
-  
+
 }
 
 .container {
