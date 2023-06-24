@@ -1,8 +1,8 @@
 <div class="base">
   <div>
-    <div>Logo thing</div>
+    <div>Logo</div>
     <a><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
-    <a>Dashboard</a>
+    <a><span class="material-symbols-rounded">sticky_note_2</span>Editor</a>
     <a>Dashboard</a>
   </div>
   <div>
@@ -16,21 +16,19 @@
     display: grid;
     grid-template-columns: 12rem auto;
   }
-
+  
   div > div > div {
     padding: 1rem 2rem;
   }
 
   a {
-    padding: 0 2.5rem;
+    padding: 0 2rem;
     margin-bottom: 0.5em;
-    display: block;
-    text-align: right;
+    display: flex;
   }
 
   a span {
-    display: flex;
-    position: absolute;
+    margin-right: 0.5em;
   }
 
   .base:last-child {
