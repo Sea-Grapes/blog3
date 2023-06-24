@@ -22,13 +22,15 @@
   }
 
   a {
-    padding: 0 2rem;
+    padding: 0 2.5rem;
     margin-bottom: 0.5em;
     display: block;
+    text-align: right;
   }
 
   a span {
-    
+    display: flex;
+    position: absolute;
   }
 
   .base:last-child {
