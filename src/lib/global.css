@@ -255,6 +255,16 @@ html, body {
   font-size: 1.12em
 }
 
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+section {
+  padding: 3.5rem 0;
+}
+
 .ns {
   user-select: none;
   -moz-user-select: none;
