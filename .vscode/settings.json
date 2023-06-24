@@ -10,6 +10,8 @@
     "README.md": true,
     "svelte.config.js": true,
     "vite.config.js": true,
-    "vite.config.js.timestamp-1685839768921.mjs": true
+    "vite.config.js.timestamp-1685839768921.mjs": true,
+    ".vscode": true,
+    "desktop.ini": true
   }
 }
