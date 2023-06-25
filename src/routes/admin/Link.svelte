@@ -19,6 +19,7 @@ $: path = $page.url.pathname;
     padding: 0 2rem;
     margin-bottom: 0.7rem;
     display: flex;
+    align-items: center;
   }
 
   .active {
