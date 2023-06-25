@@ -258,6 +258,11 @@ section {
   padding: 3.5rem 0;
 }
 
+.title {
+  padding: 0.2em;
+  border-bottom: 1px solid var(--slate-200);
+}
+
 .ns {
   user-select: none;
   -moz-user-select: none;

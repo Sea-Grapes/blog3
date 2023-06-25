@@ -1,1 +1,1 @@
-<h1>Blog</h1>
+<h2 class="title">Blog Posts</h2>
