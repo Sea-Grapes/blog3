@@ -1,9 +1,9 @@
 <div class="base">
   <div class="left">
     <header>Logo</header>
-    <a href="post"><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
+    <a href="dashboard"><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
     <a href="blog"><span class="material-symbols-rounded">article</span>Blog</a>
-    <a><span class="material-symbols-rounded">folder</span>Projects</a>
+    <a href="projects"><span class="material-symbols-rounded">folder</span>Projects</a>
   </div>
   <div>
     <header>Banner thing</header>
