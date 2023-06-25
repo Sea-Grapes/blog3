@@ -25,6 +25,10 @@
     border-bottom: 1px solid var(--slate-200);
     margin-bottom: 1.2rem;
   }
+  
+  .left header {
+    margin-bottom: 2rem;
+  }
 
   .left {
     background-color: var(--slate-50);
@@ -36,7 +40,7 @@
 
   a {
     padding: 0 2rem;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.7rem;
     display: flex;
   }
 
