@@ -1,6 +1,6 @@
 
 <script>
-    import Nav from "./Nav.svelte";
+import Nav from "./Nav.svelte";
 </script>
 
 <header class="ns">
@@ -14,23 +14,12 @@
     <Nav url='/blog' label='Blog'/>
     <Nav url='/projects' label='Projects'/>
     <Nav url='/about' label='About'/>
-
-    
-    
-    <!-- <a href="#">Home</a>
-    <a href="#">Blog</a>
-    <a href="#">Projects</a>
-    <a href="#">About</a> -->
   </nav>
 </header>
 
 
 
 <style>
-
-input {
-
-}
 
 cs {
   font-family: Consolas;
@@ -53,11 +42,6 @@ nav {
   transform-origin: top;
   transition: transform 400ms ease-in-out;
 }
-
-nav a {
-  display: block;
-}
-
 
 #nav-toggle {
   display: none;
@@ -94,14 +78,7 @@ label[for='nav-toggle'] {
     align-items: center;
     height: 100%;
   }
-
-  nav a {
-    display: flex;
-    padding: 0 1rem;
-    height: 100%;
-    align-items: center;
-  }
-
+  
   label[for='nav-toggle'] {
     display: none;
   }

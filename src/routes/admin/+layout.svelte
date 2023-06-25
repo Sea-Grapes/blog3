@@ -1,10 +1,15 @@
+<script>
+    import Link from "./Link.svelte";
+
+</script>
 <div class="base">
   <div class="left">
     <header>Logo</header>
-    <a href="dashboard"><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
-    <a href="blog"><span class="material-symbols-rounded">article</span>Blog</a>
-    <a href="projects"><span class="material-symbols-rounded">folder</span>Projects</a>
-    <a href="projects"><span class="material-symbols-rounded">comment</span>Comments</a>
+    <Link url='dashboard' icon='grid_view' display='Dashboard'/>
+    <Link url='blog' icon='article' display='Blog'/>
+    <Link url='projects' icon='folder' display='Projects'/>
+    <Link url='comments' icon='comment' display='Comments'/>
+
   </div>
   <div>
     <header>Banner thing</header>
@@ -35,14 +40,4 @@
     background-color: var(--slate-50);
   }
 
-  a {
-    padding: 0 2rem;
-    margin-bottom: 0.7rem;
-    display: flex;
-  }
-
-  a span {
-    margin-right: 0.5em;
-  }
-  
 </style>
