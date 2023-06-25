@@ -1,13 +1,15 @@
 <div class="base">
-  <div>
-    <div>Logo</div>
-    <a><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
-    <a><span class="material-symbols-rounded">sticky_note_2</span>Editor</a>
-    <a>Dashboard</a>
+  <div class="left">
+    <header>Logo</header>
+    <a href="post"><span class="material-symbols-rounded">grid_view</span>Dashboard</a>
+    <a href="blog"><span class="material-symbols-rounded">article</span>Blog</a>
+    <a><span class="material-symbols-rounded">folder</span>Projects</a>
   </div>
   <div>
-    <div>Banner thing</div>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    <header>Banner thing</header>
+    <div class="body">
+      stuff here
+    </div>
   </div>
 </div>
 
@@ -15,15 +17,26 @@
   .base {
     display: grid;
     grid-template-columns: 12rem auto;
+    min-height: 100vh;
   }
   
-  div > div > div {
-    padding: 1rem 2rem;
+  header {
+    padding: 1.2rem 2rem;
+    border-bottom: 1px solid var(--slate-200);
+    margin-bottom: 1.2rem;
+  }
+
+  .left {
+    background-color: var(--slate-50);
+  }
+
+  .body {
+    padding: 0 2rem;
   }
 
   a {
     padding: 0 2rem;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em;
     display: flex;
   }
 
