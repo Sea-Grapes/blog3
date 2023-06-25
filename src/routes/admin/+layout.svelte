@@ -10,6 +10,8 @@
     <Link url='projects' icon='folder' display='Projects'/>
     <Link url='comments' icon='comment' display='Comments'/>
 
+    <Link url='/' icon='home' display='Home'/>
+
   </div>
   <div>
     <header>Banner thing</header>

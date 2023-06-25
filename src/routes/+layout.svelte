@@ -1,5 +1,5 @@
-<script>
-import '$lib/global.css';
-</script>
+<style global>
+  @import '../lib/global.css';
+</style>
 
 <slot/>
